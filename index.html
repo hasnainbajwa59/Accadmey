@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Software Academy | Professional Software Courses & IT Training</title>
+<meta name="description" content="Learn software development, programming, AI, cybersecurity, cloud computing and in-demand technology skills through professional courses and practical projects.">
+<meta name="keywords" content="software courses, programming courses, web development, AI, cybersecurity, cloud computing, IT training">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Software Academy | Professional IT Training">
+<meta property="og:description" content="Master in-demand software skills with premium, practical courses.">
+<link rel="canonical" href="https://example.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="loader"><div class="loader-ring"></div><span>Loading Academy...</span></div>
+
+<nav class="navbar navbar-expand-lg fixed-top glass-nav" id="mainNav">
+<div class="container">
+<a class="navbar-brand brand" href="#home"><span class="brand-mark"><i class="fa-solid fa-code"></i></span> Software<span>Academy</span></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><i class="fa-solid fa-bars"></i></button>
+<div class="collapse navbar-collapse" id="navMenu">
+<ul class="navbar-nav mx-auto gap-lg-2">
+<li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+<li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#instructors">Instructors</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+<div class="d-flex align-items-center gap-2">
+<button class="icon-btn" aria-label="Search" onclick="document.getElementById('courseSearch').focus()"><i class="fa-solid fa-magnifying-glass"></i></button>
+<a href="#contact" class="btn btn-outline-light rounded-pill px-3 d-none d-xl-inline-flex">Login</a>
+<a href="#enroll" class="btn btn-primary-custom rounded-pill px-4">Enroll Now</a>
+</div>
+</div></div></nav>
+
+<header id="home" class="hero-section">
+<div class="hero-grid"></div><div class="orb orb-1"></div><div class="orb orb-2"></div>
+<div class="container position-relative">
+<div class="row align-items-center min-vh-100 py-5">
+<div class="col-lg-7 pt-5 reveal">
+<div class="eyebrow"><span></span> THE FUTURE OF IT LEARNING</div>
+<h1>Master <span class="gradient-text">In-Demand</span><br>Software Skills.</h1>
+<p class="hero-copy">Learn professional software development, AI, cybersecurity, cloud computing and other high-demand technology skills through practical, career-focused courses.</p>
+<div class="d-flex flex-wrap gap-3 mb-5">
+<a href="#courses" class="btn btn-primary-custom btn-lg rounded-pill px-4">Explore Courses <i class="fa-solid fa-arrow-right ms-2"></i></a>
+<a href="#about" class="btn btn-ghost btn-lg rounded-pill px-4"><i class="fa-solid fa-play me-2"></i> Why Us</a>
+</div>
+<div class="hero-proof">
+<div class="avatars"><span>MA</span><span>AK</span><span>HS</span><span>+</span></div>
+<div><strong>10,000+</strong><small>Learners building their future</small></div>
+</div>
+</div>
+<div class="col-lg-5 reveal delay-2">
+<div class="hero-visual">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1800&q=90" alt="Professional software development workspace">
+<div class="floating-card card-a"><i class="fa-solid fa-certificate"></i><div><b>Certificates</b><small>Career-ready</small></div></div>
+<div class="floating-card card-b"><i class="fa-solid fa-users"></i><div><b>10K+ Students</b><small>Active learners</small></div></div>
+<div class="visual-tag"><span class="pulse"></span> 50+ Professional Courses</div>
+</div>
+</div>
+</div></div></header>
+
+<section class="stats-strip"><div class="container"><div class="row g-4 text-center">
+<div class="col-6 col-lg-3"><div class="stat"><strong class="counter" data-target="50">0</strong><span>+</span><small>Professional Courses</small></div></div>
+<div class="col-6 col-lg-3"><div class="stat"><strong class="counter" data-target="10000">0</strong><span>+</span><small>Students</small></div></div>
+<div class="col-6 col-lg-3"><div class="stat"><strong class="counter" data-target="25">0</strong><span>+</span><small>Expert Instructors</small></div></div>
+<div class="col-6 col-lg-3"><div class="stat"><strong class="counter" data-target="95">0</strong><span>%</span><small>Student Satisfaction</small></div></div>
+</div></div></section>
+
+<section id="categories" class="section-padding">
+<div class="container">
+<div class="section-head reveal"><div><span class="eyebrow">LEARN YOUR WAY</span><h2>Explore <span class="gradient-text">Technology</span> Paths</h2></div><p>Choose a focused learning path and build skills that translate into real projects and modern careers.</p></div>
+<div class="category-grid">
+<div class="category-card reveal"><div class="cat-icon"><i class="fa-solid fa-laptop-code"></i></div><h3>Web Development</h3><p>Frontend, backend & full-stack engineering.</p><a href="#courses" onclick="setCategory('Web Development')">Explore <i class="fa-solid fa-arrow-right"></i></a></div>
+<div class="category-card reveal delay-1"><div class="cat-icon"><i class="fa-solid fa-brain"></i></div><h3>AI & Data</h3><p>AI, machine learning, data science & GenAI.</p><a href="#courses" onclick="setCategory('Artificial Intelligence')">Explore <i class="fa-solid fa-arrow-right"></i></a></div>
+<div class="category-card reveal delay-2"><div class="cat-icon"><i class="fa-solid fa-shield-halved"></i></div><h3>Cyber Security</h3><p>Security fundamentals, ethical hacking & defense.</p><a href="#courses" onclick="setCategory('Cyber Security')">Explore <i class="fa-solid fa-arrow-right"></i></a></div>
+<div class="category-card reveal delay-3"><div class="cat-icon"><i class="fa-solid fa-cloud"></i></div><h3>Cloud & DevOps</h3><p>Cloud platforms, automation & deployment.</p><a href="#courses" onclick="setCategory('Cloud Computing')">Explore <i class="fa-solid fa-arrow-right"></i></a></div>
+</div></div></section>
+
+<section id="courses" class="section-padding courses-section">
+<div class="container">
+<div class="section-head reveal"><div><span class="eyebrow">CURATED FOR CAREERS</span><h2>Featured <span class="gradient-text">Courses</span></h2></div><p>Search and filter our premium catalog. Click <b>View Details</b> to open a complete course page in a new tab.</p></div>
+<div class="filter-panel reveal">
+<div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input id="courseSearch" type="search" placeholder="Search software courses..."></div>
+<select id="categoryFilter"><option value="">All Categories</option><option>Web Development</option><option>Programming</option><option>Artificial Intelligence</option><option>Data Science</option><option>Cyber Security</option><option>Cloud Computing</option><option>Database</option><option>UI/UX Design</option></select>
+<select id="levelFilter"><option value="">All Levels</option><option>Beginner</option><option>Intermediate</option><option>Advanced</option><option>Beginner to Advanced</option></select>
+<select id="durationFilter"><option value="">All Durations</option><option>1 Month</option><option>2 Months</option><option>3 Months</option><option>6 Months</option></select>
+</div>
+<div id="courseGrid" class="row g-4 mt-1"></div>
+<div id="noResults" class="empty-state d-none"><i class="fa-solid fa-magnifying-glass"></i><h3>No courses found</h3><p>Try another keyword or filter.</p></div>
+</div></section>
+
+<section id="about" class="section-padding about-section">
+<div class="container"><div class="row align-items-center g-5">
+<div class="col-lg-6 reveal"><div class="about-image"><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1400&q=90" alt="Students learning software development" loading="lazy"><div class="experience-card"><strong>10+</strong><span>Years of<br>learning excellence</span></div></div></div>
+<div class="col-lg-6 reveal"><span class="eyebrow">WHY SOFTWARE ACADEMY</span><h2>Skills that move you <span class="gradient-text">forward.</span></h2><p class="lead-muted">We combine structured learning, hands-on projects and industry-relevant technologies so students can move from theory to confidence.</p>
+<div class="feature-list"><div><i class="fa-solid fa-bullseye"></i><div><b>Industry-Focused Courses</b><p>Practical skills aligned with modern software jobs.</p></div></div><div><i class="fa-solid fa-user-tie"></i><div><b>Expert Instructors</b><p>Learn from experienced technology professionals.</p></div></div><div><i class="fa-solid fa-diagram-project"></i><div><b>Real-World Projects</b><p>Build portfolio-ready projects while you learn.</p></div></div><div><i class="fa-solid fa-award"></i><div><b>Professional Certificates</b><p>Showcase your completed learning journey.</p></div></div></div></div>
+</div></div></section>
+
+<section class="tech-section section-padding"><div class="container">
+<div class="text-center reveal"><span class="eyebrow">TOOLS YOU'LL USE</span><h2>Learn with the <span class="gradient-text">modern stack</span></h2></div>
+<div class="tech-grid mt-5">
+<div><i class="fa-brands fa-html5"></i><span>HTML5</span></div><div><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div><div><i class="fa-brands fa-js"></i><span>JavaScript</span></div><div><i class="fa-brands fa-python"></i><span>Python</span></div><div><i class="fa-brands fa-java"></i><span>Java</span></div><div><i class="fa-brands fa-react"></i><span>React</span></div><div><i class="fa-brands fa-node-js"></i><span>Node.js</span></div><div><i class="fa-solid fa-database"></i><span>MySQL</span></div><div><i class="fa-brands fa-github"></i><span>GitHub</span></div><div><i class="fa-brands fa-docker"></i><span>Docker</span></div><div><i class="fa-brands fa-aws"></i><span>AWS</span></div><div><i class="fa-solid fa-code"></i><span>C++</span></div>
+</div></div></section>
+
+<section id="instructors" class="section-padding"><div class="container">
+<div class="section-head reveal"><div><span class="eyebrow">MEET THE EXPERTS</span><h2>Learn from <span class="gradient-text">practitioners</span></h2></div><p>Experienced instructors focused on practical outcomes, not just theory.</p></div>
+<div class="row g-4">
+<div class="col-md-4 reveal"><div class="instructor-card"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=900&q=90" alt="Software instructor" loading="lazy"><div><h3>Muhammad Imran</h3><p>Senior Software Development Instructor</p><div class="rating">★★★★★ <span>4.9</span></div><small>10+ Years • 15K+ Students</small></div></div></div>
+<div class="col-md-4 reveal delay-1"><div class="instructor-card"><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=90" alt="Technology instructor" loading="lazy"><div><h3>Ayesha Khan</h3><p>AI & Data Science Instructor</p><div class="rating">★★★★★ <span>4.8</span></div><small>8+ Years • 8K+ Students</small></div></div></div>
+<div class="col-md-4 reveal delay-2"><div class="instructor-card"><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=900&q=90" alt="Cyber security instructor" loading="lazy"><div><h3>Ahmed Raza</h3><p>Cyber Security & Cloud Expert</p><div class="rating">★★★★★ <span>4.9</span></div><small>9+ Years • 12K+ Students</small></div></div></div>
+</div></div></section>
+
+<section class="testimonial-section section-padding"><div class="container">
+<div class="text-center reveal"><span class="eyebrow">STUDENT STORIES</span><h2>Built for <span class="gradient-text">real results.</span></h2></div>
+<div class="row g-4 mt-3"><div class="col-lg-4 reveal"><div class="quote-card"><div class="rating">★★★★★</div><p>“The practical projects helped me understand programming much faster. The course structure is excellent.”</p><b>Hamza Ali</b><small>Python Programming</small></div></div><div class="col-lg-4 reveal delay-1"><div class="quote-card"><div class="rating">★★★★★</div><p>“The interface is clean, lessons are focused and the projects gave me confidence to build my portfolio.”</p><b>Sarah Ahmed</b><small>Full Stack Development</small></div></div><div class="col-lg-4 reveal delay-2"><div class="quote-card"><div class="rating">★★★★★</div><p>“A very practical approach to cybersecurity. I finally understood how the concepts connect in real environments.”</p><b>Usman Tariq</b><small>Cyber Security</small></div></div></div>
+</div></section>
+
+<section id="enroll" class="cta-section section-padding"><div class="container"><div class="cta-box reveal"><div><span class="eyebrow">READY TO LEVEL UP?</span><h2>Your next skill starts <span class="gradient-text">here.</span></h2><p>Join a practical learning path and start building skills that matter.</p></div><a href="#contact" class="btn btn-primary-custom btn-lg rounded-pill px-4">Start Learning <i class="fa-solid fa-arrow-right ms-2"></i></a></div></div></section>
+
+<section id="contact" class="section-padding contact-section"><div class="container"><div class="row g-5">
+<div class="col-lg-5 reveal"><span class="eyebrow">GET IN TOUCH</span><h2>Let's build your <span class="gradient-text">future.</span></h2><p class="lead-muted">Have a question about a course or enrollment? Send us a message and our team will get back to you.</p><div class="contact-item"><i class="fa-solid fa-envelope"></i><div><small>Email</small><b>hello@softwareacademy.com</b></div></div><div class="contact-item"><i class="fa-brands fa-whatsapp"></i><div><small>WhatsApp</small><b>+92 300 0000000</b></div></div></div>
+<div class="col-lg-7 reveal"><form id="enrollForm" class="contact-form"><div class="row g-3"><div class="col-md-6"><label>Full Name</label><input required type="text" placeholder="Your name"></div><div class="col-md-6"><label>Email</label><input required type="email" placeholder="you@example.com"></div><div class="col-md-6"><label>Phone</label><input required type="tel" placeholder="+92..."></div><div class="col-md-6"><label>Select Course</label><select required id="enrollCourse"><option value="">Choose a course</option></select></div><div class="col-12"><label>Education / Background</label><input type="text" placeholder="e.g. Intermediate, Graduate, Working professional"></div><div class="col-12"><label>Message</label><textarea rows="4" placeholder="Tell us what you want to learn..."></textarea></div><div class="col-12"><button class="btn btn-primary-custom btn-lg rounded-pill px-4" type="submit">Submit Enrollment <i class="fa-solid fa-paper-plane ms-2"></i></button></div></div></form></div>
+</div></div></section>
+
+<footer class="footer"><div class="container"><div class="row g-5">
+<div class="col-lg-4"><a class="brand footer-brand" href="#home"><span class="brand-mark"><i class="fa-solid fa-code"></i></span> Software<span>Academy</span></a><p>Premium, practical technology education for the skills shaping tomorrow.</p><div class="socials"><a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a><a href="#"><i class="fa-brands fa-youtube"></i></a><a href="#"><i class="fa-brands fa-whatsapp"></i></a></div></div>
+<div class="col-6 col-lg-2"><h5>Courses</h5><a href="#courses">Web Development</a><a href="#courses">Programming</a><a href="#courses">AI & Data</a><a href="#courses">Cyber Security</a><a href="#courses">Cloud</a></div>
+<div class="col-6 col-lg-2"><h5>Company</h5><a href="#about">About Us</a><a href="#instructors">Instructors</a><a href="#contact">Contact</a><a href="#">Careers</a></div>
+<div class="col-6 col-lg-2"><h5>Support</h5><a href="#">FAQ</a><a href="#">Privacy Policy</a><a href="#">Terms</a><a href="#">Help Center</a></div>
+<div class="col-6 col-lg-2"><h5>Explore</h5><a href="#courses">All Courses</a><a href="#categories">Categories</a><a href="#enroll">Enroll</a><a href="#contact">Contact</a></div>
+</div><div class="footer-bottom"><span>© 2026 Software Academy. All rights reserved.</span><span>Designed for modern learners.</span></div></div></footer>
+
+<div id="toast" class="toast-message"><i class="fa-solid fa-circle-check"></i><span></span></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/courses.js"></script><script src="js/main.js"></script>
+</body></html>
